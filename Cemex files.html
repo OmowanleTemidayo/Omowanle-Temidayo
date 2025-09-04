@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEMEX - Multipurpose Ventures | Professional Construction Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="Cemex.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo-container">
+                <!-- Logo placeholder - insert your logo here -->
+                <div class="logo-placeholder">
+                    <!-- Your logo will go here -->
+                </div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About</a></li>
+                <li><a href="#" onclick="showPage('services')">Services</a></li>
+                <li><a href="#" onclick="showPage('projects')">Portfolio</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-background">
+                    <img src="https://i.imgur.com/6hk10ip.jpeg" alt="construction-site-with-cranes" />
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-badge">Professional Construction Services</div>
+                        <h1>Building with Excellence, Shaping the Future</h1>
+                        <p>CEMEX Multipurpose Ventures delivers world-class construction <br> solutions with unmatched quality, safety, and innovation. <br> From architectural planning to project completion, <br> we craft excellence in every brick.</p>
+                        <div class="hero-buttons">
+                            <a href="#" class="cta-button primary" onclick="showPage('contact')">Get a Quote</a>
+                            <a href="#" class="cta-button secondary" onclick="showPage('projects')">View Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What We Do Section -->
+            <section class="what-we-do">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-badge">What we do</span>
+                        <h2>We offer a wide range of construction services</h2>
+                    </div>
+                    
+                    <div class="services-preview">
+                        <div class="service-item">
+                            <div class="service-icon"><i class="fas fa-tools"></i></div>
+                            <h3>Building Construction</h3>
+                            <p>Complete building construction services for residential, commercial, and industrial projects with meticulous attention to detail.</p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+                            <h3>Site Engineering And Supervision</h3>
+                            <p>Comprehensive civil engineering and infrastructure development including roads, bridges, and utility installations.</p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon"><i class="fas fa-ruler-combined"></i></div>
+                            <h3>Renovation & Remodeling</h3>
+                            <p>Professional renovation services to transform existing structures while preserving character and enhancing functionality.</p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon"><i class="fas fa-home"></i></div>
+                            <h3>Interior And Exterior Design</h3>
+                            <p> We handle space planning, material selection, color coordination, lighting design, and landscaping integration to create stunning, livable spaces that enhance both comfort and property value.</p>
+                        </div>
+                         <div class="service-item">
+                            <div class="service-icon"><i class="fas fa-truck-pickup"></i></div>
+                            <h3>Material Supply</h3>
+                            <p>We handle delivery of construction materials including structural steel, concrete, lumber, roofing materials, electrical supplies, plumbing fixtures, and specialty construction products.</p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h3>Project Management</h3>
+                            <p>End-to-end project management ensuring timely delivery, budget control, and quality assurance throughout construction.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="container">
+                    <div class="stats-content">
+                        <div class="stats-text">
+                            <span class="stats-badge">EXPERIENCED CONSTRUCTION EXPERTS</span>
+                            <h2>Delivering exceptional construction solutions through expert craftsmanship, personalized service, and industry relationships built over decades.</h2>
+                        </div>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">COMPLETED PROJECTS</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">100+</div>
+                                <div class="stat-label">SATISFIED CLIENTS</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">YEARS EXPERIENCE</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">25+</div>
+                                <div class="stat-label">EXPERT TEAM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Client Partners Section -->
+            <section class="partners-section">
+                <div class="container">
+                    <h3>Trusted by Leading Organizations</h3>
+                    <p>Partnering with top government agencies, developers, and businesses across Nigeria</p>
+                    <div class="partners-grid">
+                        <div class="partner-logo">Property Developers</div>
+                        <div class="partner-logo">Corporate Clients</div>
+                        <div class="partner-logo">Educational Institutions</div>
+                        <div class="partner-logo">Healthcare Facilities</div>
+                        <div class="partner-logo">Industrial Companies</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Us Page -->
+        <div id="about" class="page">
+            <div class="container">
+                <section class="page-hero">
+                    <div class="page-hero-content">
+                        <span class="section-badge">About CEMEX</span>
+                        <h1>Building Nigeria's Future, One Project at a Time</h1>
+                        <p>Established as a leading construction company, CEMEX Multipurpose Ventures has been transforming landscapes and building communities across Nigeria with unmatched expertise and dedication.</p>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <div class="content-grid">
+                        <div class="content-text">
+                            <h2>Our Story</h2>
+                            <p>CEMEX Multipurpose Ventures began with a vision to revolutionize Nigeria's construction industry through innovative building solutions and exceptional craftsmanship. Over the years, we have evolved from a small construction firm to a comprehensive multipurpose venture, handling everything from residential buildings to large-scale infrastructure projects.</p>
+                            <p>Our journey has been marked by continuous growth, technological advancement, and an unwavering commitment to quality. We have successfully completed over 150 projects, earning the trust of government agencies, property developers, and individual clients across Nigeria.</p>
+                        </div>
+                        <div class="content-image">
+                            <div class="image-placeholder">Our Construction Team</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="values-section">
+                    <div class="section-header">
+                        <span class="section-badge">Our Values</span>
+                        <h2>Built on Strong Foundations</h2>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fas fa-balance-scale"></i></div>
+                            <h3>Integrity</h3>
+                            <p>We conduct our business with honesty, transparency, and ethical practices in every project and client interaction.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fas fa-award"></i></div>
+                            <h3>Quality</h3>
+                            <p>We never compromise on quality, ensuring every project meets the highest standards of craftsmanship and durability.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fas fa-hard-hat"></i></div>
+                            <h3>Safety</h3>
+                            <p>Safety is our top priority. We maintain rigorous safety protocols to protect our workers, clients, and community.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h3>Innovation</h3>
+                            <p>We embrace new technologies and methods to deliver efficient, sustainable, and cutting-edge construction solutions.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Services Page -->
+        <div id="services" class="page">
+            <div class="container">
+                <section class="page-hero">
+                    <div class="page-hero-content">
+                        <span class="section-badge">Our Services</span>
+                        <h1>Comprehensive Construction Solutions</h1>
+                        <p>From concept to completion, we provide end-to-end construction services backed by expertise, innovation, and commitment to excellence.</p>
+                    </div>
+                </section>
+
+                <section class="services-detailed">
+                    <div class="service-detailed">
+                        <div class="service-content">
+                            <div class="service-badge"><i class="fas fa-tools"></i>Construction</div>
+                            <h2>Building Construction</h2>
+                            <p>We specialize in comprehensive building construction services covering residential, commercial, and industrial projects. Our experienced team handles every phase from foundation laying to final finishing, ensuring structural integrity and aesthetic excellence.</p>
+                            <ul class="service-features">
+                                <li>Residential complexes and housing estates</li>
+                                <li>Commercial buildings and office complexes</li>
+                                <li>Industrial facilities and warehouses</li>
+                                <li>Educational and healthcare facilities</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <div class="image-placeholder">Building Construction</div>
+                        </div>
+                    </div>
+
+                    <div class="service-detailed reverse">
+                        <div class="service-content">
+                            <div class="service-badge"> Infrastructure</div>
+                            <h2>Civil & Infrastructure Works</h2>
+                            <p>Our civil engineering expertise covers large-scale infrastructure projects that form the backbone of modern communities. We deliver durable, efficient infrastructure solutions that stand the test of time.</p>
+                            <ul class="service-features">
+                                <li>Road construction and highway development</li>
+                                <li>Bridge and culvert construction</li>
+                                <li>Drainage and water management systems</li>
+                                <li>Utility installations and networking</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <div class="image-placeholder">Infrastructure Development</div>
+                        </div>
+                    </div>
+
+                    <div class="service-detailed">
+                        <div class="service-content">
+                            <div class="service-badge">🔨 Renovation</div>
+                            <h2>Renovation & Remodeling</h2>
+                            <p>Transform your existing spaces with our professional renovation services. We breathe new life into old structures while preserving their character and improving functionality.</p>
+                            <ul class="service-features">
+                                <li>Complete building renovations</li>
+                                <li>Interior and exterior remodeling</li>
+                                <li>Heritage building restoration</li>
+                                <li>Space optimization and modernization</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <div class="image-placeholder">Renovation Projects</div>
+                        </div>
+                    </div>
+
+                    <div class="service-detailed reverse">
+                        <div class="service-content">
+                            <div class="service-badge">📋 Management</div>
+                            <h2>Project Management</h2>
+                            <p>Our comprehensive project management services ensure seamless execution from planning to completion. We coordinate all aspects of construction while maintaining quality, timeline, and budget control.</p>
+                            <ul class="service-features">
+                                <li>Project planning and scheduling</li>
+                                <li>Budget management and cost control</li>
+                                <li>Quality assurance and safety oversight</li>
+                                <li>Vendor coordination and materials procurement</li>
+                            </ul>
+                        </div>
+                        <div class="service-image">
+                            <div class="image-placeholder">Project Management</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="materials-section">
+                    <div class="section-header">
+                        <span class="section-badge">Building Materials</span>
+                        <h2>Premium Quality Materials</h2>
+                        <p>We supply top-grade building materials at competitive prices, ensuring your project uses only the finest components.</p>
+                    </div>
+                    <div class="materials-grid">
+                        <div class="material-item">Stone Dust Blocks</div>
+                        <div class="material-item">Sharp Sand Blocks</div>
+                        <div class="material-item">Granite & Gravel</div>
+                        <div class="material-item">Plastering Sands</div>
+                        <div class="material-item">Interlocks</div>
+                        <div class="material-item">Premium Cements</div>
+                        <div class="material-item">Blocks</div>
+                        <div class="material-item">Rebar/Iron Rod</div>
+                        <div class="material-item">Tiles</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Projects Page -->
+        <div id="projects" class="page">
+            <div class="container">
+                <section class="page-hero">
+                    <div class="page-hero-content">
+                        <span class="section-badge">Our Portfolio</span>
+                        <h1>Excellence in Every Project</h1>
+                        <p>Discover our completed projects that showcase innovation, quality craftsmanship, and our commitment to exceeding client expectations.</p>
+                    </div>
+                </section>
+
+                <section class="portfolio-gallery">
+                    <div class="projects-grid">
+                        <div class="project-card featured">
+                            <div class="project-image">
+                                <div class="image-placeholder">Featured Project</div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Residential</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Luxury Residential Complex</h3>
+                                <p>A modern 50-unit residential complex featuring contemporary design, energy-efficient systems, and premium finishes. Completed on schedule with exceptional quality standards.</p>
+                                <div class="project-details">
+                                    <span><i class="fas fa-map-marker-alt"></i>Lagos, Nigeria</span>
+                                    <span>📅 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">Commercial Building</div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Commercial</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Corporate Headquarters</h3>
+                                <p>State-of-the-art corporate headquarters with advanced infrastructure and modern office spaces.</p>
+                                <div class="project-details">
+                                    <span><i class="fas fa-map-marker-alt"></i>Abuja, Nigeria</span>
+                                    <span>📅 2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">Infrastructure</div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Infrastructure</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Municipal Infrastructure</h3>
+                                <p>Comprehensive infrastructure development including road construction and drainage systems.</p>
+                                <div class="project-details">
+                                    <span><i class="fas fa-map-marker-alt"></i>Ibadan, Nigeria</span>
+                                    <span>📅 2023</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">Renovation</div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Renovation</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Heritage Building Restoration</h3>
+                                <p>Careful restoration of historic building, preserving architectural heritage while incorporating modern amenities.</p>
+                                <div class="project-details">
+                                    <span><i class="fas fa-map-marker-alt"></i>Kano, Nigeria</span>
+                                    <span>📅 2023</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">Educational Facility</div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Educational</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Modern School Complex</h3>
+                                <p>Educational facility with specialized classrooms, laboratories, and recreational areas.</p>
+                                <div class="project-details">
+                                    <span><i class="fas fa-map-marker-alt"></i> Port Harcourt, Nigeria</span>
+                                    <span>📅 2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">Industrial Facility</div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Industrial</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Manufacturing Facility</h3>
+                                <p>Large-scale industrial facility with specialized infrastructure and safety systems.</p>
+                                <div class="project-details">
+                                    <span><i class="fas fa-map-marker-alt"></i> Kaduna, Nigeria</span>
+                                    <span>📅 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <div class="container">
+                <section class="page-hero">
+                    <div class="page-hero-content">
+                        <span class="section-badge">About CEMEX</span>
+                        <h1>Crafting Excellence in Every Brick</h1>
+                        <p>With over 15 years of experience, we've established ourselves as Nigeria's premier construction company, known for quality, innovation, and client satisfaction.</p>
+                    </div>
+                </section>
+
+                <section class="about-content">
+                    <div class="content-grid">
+                        <div class="content-text">
+                            <h2>Our Mission</h2>
+                            <p>To deliver world-class construction solutions that exceed client expectations while maintaining the highest standards of safety, quality, and environmental responsibility. We strive to build lasting relationships with our clients by consistently delivering projects on time, within budget, and to the highest quality standards.</p>
+                            
+                            <h2>Why Choose CEMEX?</h2>
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Certified quality assurance processes</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Experienced team of professionals</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>On-time project delivery</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Competitive pricing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-image">
+                            <div class="image-placeholder">Company Overview</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="values-section">
+                    <div class="section-header">
+                        <span class="section-badge">Core Values</span>
+                        <h2>What Drives Us Forward</h2>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">🤝</div>
+                            <h3>Integrity</h3>
+                            <p>Honest, transparent business practices in every interaction</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">⭐</div>
+                            <h3>Quality</h3>
+                            <p>Uncompromising standards of craftsmanship and durability</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">🛡️</div>
+                            <h3>Safety</h3>
+                            <p>Rigorous safety protocols protecting everyone involved</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">💡</div>
+                            <h3>Innovation</h3>
+                            <p>Cutting-edge technologies and sustainable solutions</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <div class="container">
+                <section class="page-hero">
+                    <div class="page-hero-content">
+                        <span class="section-badge">Get In Touch</span>
+                        <h1>Let's Build Something Amazing Together</h1>
+                        <p>Ready to start your construction project? Our team of experts is here to help you bring your vision to life with precision and excellence.</p>
+                    </div>
+                </section>
+
+                <section class="contact-section">
+                    <div class="contact-grid">
+                        <div class="contact-form-container">
+                            <div class="contact-form">
+                                <h3>Request a Quote</h3>
+                                <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                                <form id="contactForm">
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="name">Full Name *</label>
+                                            <input type="text" id="name" name="name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email Address *</label>
+                                            <input type="email" id="email" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="phone">Phone Number</label>
+                                            <input type="tel" id="phone" name="phone">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="project">Project Type</label>
+                                            <select id="project" name="project">
+                                                <option value="">Select Project Type</option>
+                                                <option value="building">Building Construction</option>
+                                                <option value="civil">Civil & Infrastructure</option>
+                                                <option value="renovation">Renovation</option>
+                                                <option value="management">Project Management</option>
+                                                <option value="materials">Building Materials Supply</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Project Details *</label>
+                                        <textarea id="message" name="message" rows="5" placeholder="Please describe your project requirements, timeline, and any specific needs..." required></textarea>
+                                    </div>
+                                    <button type="submit" class="cta-button primary full-width">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-container">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                    <h3>Location</h3>
+                                    <p>Ibadan, Oyo State<br>Nigeria</p>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon"></div>
+                                    <h3>Phone</h3>
+                                    <p>+234 706 162 3343<br>+234 703 430 2186</p>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">✉️</div>
+                                    <h3>Email</h3>
+                                    <p>info@cemexventures.com<br>projects@cemexventures.com</p>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">🕒</div>
+                                    <h3>Business Hours</h3>
+                                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CEMEX Multipurpose Ventures</h3>
+                    <p>Crafting Excellence in Every Brick</p>
+                    <p>Building with Excellence, Shaping the Future</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="#" onclick="showPage('home')">Home</a></p>
+                    <p><a href="#" onclick="showPage('about')">About</a></p>
+                    <p><a href="#" onclick="showPage('services')">Services</a></p>
+                    <p><a href="#" onclick="showPage('projects')">Portfolio</a></p>
+                    <p><a href="#" onclick="showPage('contact')">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p>Building Construction</p>
+                    <p>Site Engineering And Supervision</p>
+                    <p>Renovation & Remodeling</p>
+                    <p>Interior And Exterior Design</p>
+                    <p>Material Supply</p>
+                    <p>Project Management</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +234 706 162 3343</p>
+                    <p><i class="fas fa-envelope"></i> info@cemexventures.com</p>
+                </div>
+                  <div class="social-icons">
+                <a href="https://instagram.com/yourusername" class="social-icon instagram" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+
+                <a href="https://x.com/yourusername" class="social-icon twitter" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+
+                <a href="https://facebook.com/yourusername" class="social-icon facebook" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                </a>
+
+                <a href="https://tiktok.com/@yourusername" class="social-icon tiktok" target="_blank" rel="noopener noreferrer" aria-label="Follow us on TikTok">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                    </svg>
+                </a>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CEMEX Multipurpose Ventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Page Navigation
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            document.getElementById(pageId).classList.add('active');
+            document.getElementById('navMenu').classList.remove('active');
+            window.scrollTo(0, 0);
+        }
+
+        // Mobile Menu Toggle
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Contact Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const project = formData.get('project');
+            
+            alert(`Thank you ${name}! Your message has been received. We will contact you within 24 hours to discuss your ${project || 'construction'} project.`);
+            this.reset();
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const nav = document.querySelector('nav');
+            const navMenu = document.getElementById('navMenu');
+            
+            if (!nav.contains(e.target) && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+            }
+        });
+
+          // Add click analytics or additional interactivity
+        document.querySelectorAll('.social-icon').forEach(icon => {
+            icon.addEventListener('click', function(e) {
+                // Optional: Add click tracking
+                console.log('Clicked:', this.getAttribute('aria-label'));
+                
+                // Add a ripple effect
+                const ripple = document.createElement('div');
+                ripple.style.cssText = `
+                    position: absolute;
+                    border-radius: 50%;
+                    background: rgba(255, 255, 255, 0.3);
+                    transform: scale(0);
+                    animation: ripple 0.6s linear;
+                    pointer-events: none;
+                `;
+                
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = (rect.width - size) / 2 + 'px';
+                ripple.style.top = (rect.height - size) / 2 + 'px';
+                
+                this.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+        });
+
+        // Add CSS animation for ripple effect
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
